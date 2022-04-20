@@ -3,12 +3,17 @@ public class Doctor {
     String name;
     String speciality;
 
-    Doctor(String name ){
+    Doctor(String name,String speciality){
         this.name = name;
-        System.out.println("Building a new doctor");
+        this.speciality = speciality;
+        this.ID = (int) (Math.random() * 49 + 1);
     }
 
-    public  void showName(){
-        System.out.println(name);
+    public void showName(){
+        System.out.println(name + " : " + speciality);
+    }
+
+    public void showID(){
+        System.out.println("ID:" + ID);
     }
 }
