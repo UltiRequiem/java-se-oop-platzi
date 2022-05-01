@@ -3,6 +3,12 @@ public class Main {
                 final var juan = new Doctor("Juan Jose", "Pediatrician");
 
                 Doctor.showDoctor(juan);
+
+                final var rosa = new Patient("Rosa", "rosa.solis@johannesgutenberg.org");
+
+                rosa.setDoctor(juan);
+
+                rosa.print();
         }
 
 }
