@@ -4,11 +4,13 @@ public class Main {
 
                 Doctor.showDoctor(juan);
 
-                final var rosa = new Patient("Rosa", "rosa.solis@johannesgutenberg.org");
+                final var rosa = new Patient("Rosa Solis", "rosa.solis@johannesgutenberg.org");
 
                 rosa.setDoctor(juan);
 
                 rosa.print();
+
+                juan.showPatients();
         }
 
 }

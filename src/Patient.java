@@ -43,6 +43,7 @@ public class Patient {
         }
 
         public void setDoctor(Doctor doctor) {
+                doctor.addPatient(this);
                 this.doctor = doctor;
         }
 
