@@ -1,4 +1,6 @@
 import com.ulti.UltiRequiem;
+import com.ulti.Day;
+import com.ulti.Utils;
 
 public class Main {
         public static void main(String[] args) {
@@ -15,5 +17,14 @@ public class Main {
                 final var ulti = new UltiRequiem();
 
                 System.out.println(ulti.hello());
+
+                try {
+                        new Utils();
+                } catch (Exception error) {
+                        System.out.println("Error: " + error.getMessage());
+                }
+
+                System.out.println(Day.getDay(1));
+
         }
 }

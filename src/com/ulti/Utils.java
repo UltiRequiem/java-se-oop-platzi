@@ -2,7 +2,7 @@ package com.ulti;
 
 public class Utils {
 
-        Utils() throws Exception {
+        public Utils() throws Exception {
                 throw new Exception("This class should not be instantiated.");
         }
 
