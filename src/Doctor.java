@@ -1,11 +1,12 @@
-import java.util.*;
+import java.util.ArrayList;
+import com.ulti.Utils;
 
 public class Doctor {
         int ID;
         String name;
         String speciality;
 
-        List<Patient> patients;
+        ArrayList<Patient> patients;
 
         Doctor(String name, String speciality) {
                 this.name = name;

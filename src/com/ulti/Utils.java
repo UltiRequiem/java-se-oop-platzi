@@ -1,4 +1,11 @@
+package com.ulti;
+
 public class Utils {
+
+        Utils() throws Exception {
+                throw new Exception("This class should not be instantiated.");
+        }
+
         /**
          * @see <a href="https://ultirequiem.com">My site</a>
          * @return A random number between 0 and 100.
@@ -34,5 +41,4 @@ public class Utils {
 
                 return sum;
         }
-
 }

@@ -1,2 +1,2 @@
 run:
-	javac src/*.java && java -cp $(shell pwd)/src Main
+	javac src/**/**/*.java && java -cp $(shell pwd)/src Main
